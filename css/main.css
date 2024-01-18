@@ -545,6 +545,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .site-nav {
@@ -602,7 +606,7 @@ ul {
     top: 58px;
     background-color: #284387;
     width: 100%;
-    height: calc(100vh - 58px);
+    height: 100vh;
     padding-top: 60px;
     gap: 8vh;
   }
@@ -614,7 +618,7 @@ ul {
 }
 /* HERO */
 .site-hero {
-  padding: 70px 0px;
+  padding: 10rem 0px;
 }
 
 .site-hero__parent {
