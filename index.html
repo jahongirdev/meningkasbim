@@ -14,9 +14,10 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro" rel="stylesheet">
 
-  <!-- Stylesheets -->
+  <!-- Stylesheets/CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" media="all">
   <link rel="stylesheet" media="all" href="css/main.css">
 </head>
 
@@ -143,7 +144,20 @@
     <!-- Find Profession -->
     <section class="site-findprof">
       <div class="container">
-        Find your profession
+        <div class="site-findprof__main">
+          <div class="site-findprof__content">
+            <h2>O'zingizga mos kasbni toping!</h2>
+            <p>Siz bu yerga qiziqishlaringizni kiritishingiz orqali o'zingizga mos kasbni AI yordami bilan topishingiz mumkin.</p>
+          </div>
+          <div class="site-findprof__form">
+            <form class="site-findprof__form-form">
+              <input type="text" name="findprof-input" id="findprof-input" placeholder="Qiziqishlaringizni yozing..." required>
+              <button type="submit">
+                <i class='bx bx-search-alt'></i>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -184,6 +198,7 @@
 
 
   <script src="js/main.js" async defer></script>
+  <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js" async defer></script>
 </body>
 
 </html>

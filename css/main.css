@@ -8,7 +8,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Inter");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -497,7 +497,7 @@ body {
   flex-direction: column;
   height: 100%;
   overflow-x: hidden;
-  font-family: "Inter", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   background-color: #fff;
 }
 
@@ -869,6 +869,54 @@ ul {
     flex-direction: column;
   }
 }
+.site-findprof {
+  background-color: #284387;
+  color: #ffffff;
+}
+
+.site-findprof__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 150px 0px;
+  padding: 80px 10px;
+}
+
+.site-findprof__content h2 {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.site-findprof__content p {
+  font-size: 15px;
+  line-height: 30px;
+  margin: 10px 0px 30px 0px;
+}
+
+.site-findprof__form-form {
+  display: flex;
+}
+
+.site-findprof__form-form input {
+  padding: 15px 150px 15px 20px;
+  outline: none;
+}
+
+.site-findprof__form-form button {
+  padding: 10px 18px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.site-findprof__form-form button i {
+  color: #1e3674;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* CONTACT */
 /* FOOTER */
 
