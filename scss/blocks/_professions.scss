@@ -26,6 +26,7 @@
     padding: 10px 15px;
     -webkit-appearance: none;
     appearance: none;
+    cursor: pointer;
 }
 .site-prof__form-item::after {
     content: "▼";
@@ -49,6 +50,47 @@
 
 .site-prof__box {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.site-prof__box-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid $color-primary;
+    padding: 30px;
+}
+.site-prof__box-item img {
+    max-width: 100px;
+    width: 100%;
+    object-fit: contain;
+}
+.site-prof__box-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.site-prof__box-text h3 {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.site-prof__box-text p {
+    font-size: 15px;
+    line-height: 22px;
+}
+.site-prof__box-btn {
+    background-color: $color-primary-alt;
+    color: $color-white;
+    padding: 10px 15px;
+    border: 2px solid $color-primary-alt;
+    transition: .2s;
+}
+.site-prof__box-btn:hover {
+    background-color: $color-white;
+    color: $color-primary-alt;
 }
 
 @media screen and (max-width: 950px) {
