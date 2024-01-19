@@ -754,7 +754,7 @@ ul {
 .site-prof__select-one,
 .site-prof__select-two,
 .site-prof__select-third {
-  padding: 10px 15px;
+  padding: 12px 37px 12px 20px;
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
@@ -763,7 +763,7 @@ ul {
 .site-prof__form-item::after {
   content: "▼";
   font-size: 1rem;
-  top: 12px;
+  top: 14px;
   right: 12px;
   position: absolute;
 }
@@ -830,6 +830,25 @@ ul {
 }
 
 .site-prof__box-btn:hover {
+  background-color: #ffffff;
+  color: #1e3674;
+}
+
+.site-prof__box-btn-main {
+  text-align: center;
+}
+
+.site-prof__box-button {
+  padding: 15px 30px;
+  background-color: #284387;
+  color: #ffffff;
+  border: 2px solid #284387;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.site-prof__box-button:hover {
   background-color: #ffffff;
   color: #1e3674;
 }
