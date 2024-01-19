@@ -1,1 +1,60 @@
 /* Professions */
+.site-prof__title {
+    text-align: center;
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.site-prof__input {
+    margin: 40px 0px 50px 0px;
+}
+.site-prof__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.site-prof__form-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+}
+.site-prof__select-one,
+.site-prof__select-two,
+.site-prof__select-third {
+    padding: 10px 15px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.site-prof__form-item::after {
+    content: "▼";
+    font-size: 1rem;
+    top: 12px;
+    right: 12px;
+    position: absolute;
+}
+.site-prof__input-btn {
+    padding: 12px 30px;
+    cursor: pointer;
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+.site-prof__input-btn:hover {
+    background-color: $color-primary-alt;
+}
+
+.site-prof__box {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    .site-prof__form {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
