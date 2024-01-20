@@ -901,14 +901,15 @@ ul {
 }
 
 .site-findprof__form-form input {
-  padding: 15px 150px 15px 20px;
+  padding: 17px 150px 17px 20px;
   outline: none;
 }
 
 .site-findprof__form-form button {
-  padding: 10px 18px;
+  padding: 8px 18px;
   background-color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .site-findprof__form-form button i {
@@ -917,6 +918,20 @@ ul {
   font-size: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .site-findprof__content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .site-findprof__content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .site-findprof__form-form input {
+    width: 100%;
+    padding: 17px 60px 17px 20px;
+  }
+}
 /* CONTACT */
 /* FOOTER */
 
