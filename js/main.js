@@ -1,3 +1,4 @@
+// navbar
 const openHam = document.querySelector('#openHam');
 const closeHam = document.querySelector('#closeHam');
 const navigationItems = document.querySelector('#site-menu');
@@ -19,3 +20,9 @@ navLink.forEach(link => {
         openHam.style.display = "block";
     });
 });
+
+// loader
+function siteLoader() {
+    let loader = document.querySelector(".site-loader");
+    loader.style.display = "none";
+}

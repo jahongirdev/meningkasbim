@@ -501,6 +501,30 @@ body {
   background-color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e3674;
+  outline: 2px solid #1e3674;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-moz-selection {
+  background: #284387;
+  color: #ffffff;
+}
+
+::-webkit-selection,
+::selection {
+  background: #284387;
+  color: #ffffff;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -517,6 +541,31 @@ ul {
   list-style: none;
 }
 
+.site-loader {
+  z-index: 1000;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #1e3674 #ffffff;
+  animation: l1 1s infinite;
+}
+
+@keyframes l1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
