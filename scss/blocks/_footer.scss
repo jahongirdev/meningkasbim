@@ -1,1 +1,24 @@
 /* FOOTER */
+.site-footer {
+    margin-top: 7rem;
+}
+.site-footer__main {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-footer__main span {
+    font-size: 13px;
+}
+.site-footer__main span a {
+    color: $color-primary-alt;
+}
+
+@media screen and (max-width: 500px) {
+    .site-footer__main {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
